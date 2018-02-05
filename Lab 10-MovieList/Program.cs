@@ -8,64 +8,61 @@ using static System.Console;
 namespace Lab_10_MovieList
 {
 
-    //MOVIE CLASS
+    //CREATE MOVIE CLASS
     class Movie
     {
         private string movieName;
         private string movieCategory;
+        private int categoryNumber;
 
-        //Category
 
-        public string Animated;
-        public string Drama;
-        public string Horror;
-        public string SciFi;
-    }
-    
-        public static void MovieList()
+        //CREATE GET/SET PROPERTIES IN ORDER TO RETRIEVE AND SET THE FIELD NAMES FOR EACH OBJECT
+        //public methods need to be created in order to write and read those fields (Name and Category)
+        public string Name
         {
-            ArrayList movieList = new ArrayList();
-     
-            //Horror
-            //movieList.Add("Saw", "Horror");
-           // movieList.Add("Stephen King's IT", "Horror");
-            movieList.Add("Nightmare on Elm Street");
-            movieList.Add("Get Out");
-            //Animated
-            movieList.Add("Mulan ");
-            movieList.Add("Tarzan");
-            movieList.Add("Shrek");
-            movieList.Add("Hoodwinked");
-            //Drama
-            movieList.Add("The Color Purple");
-            movieList.Add("The Boy in the Striped Pajamas");
-            movieList.Add("The Notebook");
-            movieList.Add("Wild");
-            //SciFi
-            movieList.Add("Maze Runner");
-            movieList.Add("Star Trek");
-            movieList.Add("Divergent");
-            movieList.Add("Star Wars");
-
-
-
-        }
-
-        //example
-        class MainClass
-        {
-            public static void Main()
+            get
             {
-                ArrayList inv = new ArrayList();
-
-                // Add elements to the list 
-                inv.Add(new Product("A", 5.9, 3));
-                inv.Add(new Product("B", 8.2, 2));
-                inv.Add(new Product("C", 3.5, 4));
-                inv.Add(new Product("D", 1.8, 8));
+                return movieName;
             }
+            set
+            {
+                movieName = value;
+            }
+        }
+        public string Category
+        {
+            get
+            {
+                return movieCategory;
+            }
+            set
+            {
+                movieCategory = value;
+            }
+        }
+
+        public int categoryNumber
+        {
+            get
+            {
+                return categoryNumber;
+            }
+            set
+            {
+                categoryNumber = value;
+            }
+        }
+
+        //CREATE METHOD FOR CREATING THE INDVIDUAL MOVIE OBJECTS
+        //constructors
+
+        //CREATE THE MOVIE OBJECTS
+
+             }
 
         }
+
+     
     }
 
 
@@ -104,16 +101,48 @@ namespace Lab_10_MovieList
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the World's Smallest Netflix! \n Please choose a genre: \n");
+        
+        //Horror
+        //movieList.Add("Saw", "Horror");
+        // movieList.Add("Stephen King's IT", "Horror");
+        movieList.Add("Nightmare on Elm Street");
+        movieList.Add("Get Out");
+        //Animated
+        movieList.Add("Mulan ");
+        movieList.Add("Tarzan");
+        movieList.Add("Shrek");
+        movieList.Add("Hoodwinked");
+        //Drama
+        movieList.Add("The Color Purple");
+        movieList.Add("The Boy in the Striped Pajamas");
+        movieList.Add("The Notebook");
+        movieList.Add("Wild");
+        //SciFi
+        movieList.Add("Maze Runner");
+        movieList.Add("Star Trek");
+        movieList.Add("Divergent");
+        movieList.Add("Star Wars");
+
+
+        Console.WriteLine("Welcome to the World's Smallest Netflix! \n Please choose a genre: \n");
 
             bool ExitProgram = false;
             while (ExitProgram == false)
             {
 
-                //DISPLAY MOVIES BY CATEGORY
-                Console.WriteLine("Excellent choice! Here are your movies: \n");
-                //to do - add the output here
 
+            //DISPLAY MOVIES BY CATEGORY
+            Console.WriteLine("Excellent choice! Here are your movies: \n");
+            // ARRAY - LIST OF MOVIES
+
+            
+            //FOR EACH MOVIE IN THE ARRAY, PRINT THE MOVIE TITLE IF THE USER-SELECTED CATEGORY MATCHES THE CATEGORY OF THE MOVIE
+            foreach object in
+
+                if (true)
+                {
+
+                }
 
 
                 //CONTINUE? Y/N
@@ -136,27 +165,7 @@ namespace Lab_10_MovieList
 
 
 
-            //example
-            ArrayList names = new ArrayList();
-            names.Add("Mary");
-            names.Add("Joseph");
-
-            Console.WriteLine("Original names:");
-            foreach (object name in names)
-                Console.WriteLine(name);
-
-            Console.ReadLine();
-
-
-
-            string[] newNames = new string[] { "David", "Goliath" };
-            names.InsertRange(1, newNames);
-
-
-            Console.WriteLine("Original names:");
-            foreach (object name in names)
-                Console.WriteLine(name);
-
+         
         }
 
 
