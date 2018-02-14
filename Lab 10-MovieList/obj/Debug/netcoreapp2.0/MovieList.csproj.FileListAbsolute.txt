@@ -1,0 +1,11 @@
+C:\Users\Owner\source\repos\Lab10-MovieList\Lab 10-MovieList\bin\Debug\netcoreapp2.0\MovieList.deps.json
+C:\Users\Owner\source\repos\Lab10-MovieList\Lab 10-MovieList\bin\Debug\netcoreapp2.0\MovieList.runtimeconfig.json
+C:\Users\Owner\source\repos\Lab10-MovieList\Lab 10-MovieList\bin\Debug\netcoreapp2.0\MovieList.runtimeconfig.dev.json
+C:\Users\Owner\source\repos\Lab10-MovieList\Lab 10-MovieList\bin\Debug\netcoreapp2.0\MovieList.dll
+C:\Users\Owner\source\repos\Lab10-MovieList\Lab 10-MovieList\bin\Debug\netcoreapp2.0\MovieList.pdb
+C:\Users\Owner\source\repos\Lab10-MovieList\Lab 10-MovieList\obj\Debug\netcoreapp2.0\MovieList.csprojResolveAssemblyReference.cache
+C:\Users\Owner\source\repos\Lab10-MovieList\Lab 10-MovieList\obj\Debug\netcoreapp2.0\MovieList.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\Lab10-MovieList\Lab 10-MovieList\obj\Debug\netcoreapp2.0\MovieList.AssemblyInfoInputs.cache
+C:\Users\Owner\source\repos\Lab10-MovieList\Lab 10-MovieList\obj\Debug\netcoreapp2.0\MovieList.AssemblyInfo.cs
+C:\Users\Owner\source\repos\Lab10-MovieList\Lab 10-MovieList\obj\Debug\netcoreapp2.0\MovieList.dll
+C:\Users\Owner\source\repos\Lab10-MovieList\Lab 10-MovieList\obj\Debug\netcoreapp2.0\MovieList.pdb

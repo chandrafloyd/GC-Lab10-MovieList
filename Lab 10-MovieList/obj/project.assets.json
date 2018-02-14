@@ -674,9 +674,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\Lab10-MovieList\\Lab 10-MovieList\\Lab 10-MovieList.csproj",
-      "projectName": "Lab 10-MovieList",
-      "projectPath": "C:\\Users\\Owner\\source\\repos\\Lab10-MovieList\\Lab 10-MovieList\\Lab 10-MovieList.csproj",
+      "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\Lab10-MovieList\\Lab 10-MovieList\\MovieList.csproj",
+      "projectName": "MovieList",
+      "projectPath": "C:\\Users\\Owner\\source\\repos\\Lab10-MovieList\\Lab 10-MovieList\\MovieList.csproj",
       "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Owner\\source\\repos\\Lab10-MovieList\\Lab 10-MovieList\\obj\\",
       "projectStyle": "PackageReference",
